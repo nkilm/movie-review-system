@@ -36,4 +36,4 @@ build/
 
 # static files
 src/main/resources/static/images/movies/*
-
+src/main/resources/static/images/casts/*
