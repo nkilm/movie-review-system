@@ -2,6 +2,7 @@ package com.dsi.spring.model;
 
 import java.util.*;
 
+
 import javax.persistence.*;
 
 import org.springframework.format.annotation.DateTimeFormat;
@@ -11,6 +12,7 @@ import org.springframework.format.annotation.DateTimeFormat;
 
 public class Movie {
 
+    
     @Id
 
     @SequenceGenerator(name = "movie_id_sequence", sequenceName = "movie_id_sequence", allocationSize = 1)
