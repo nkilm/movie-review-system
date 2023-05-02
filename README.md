@@ -14,6 +14,8 @@
 
   ![activity diagram](./docs/activity-diagram.png)
   
+ -Class diagram
+   ![class diagram](./docs/class-diagram.png)
  
 
 ## Contributors
