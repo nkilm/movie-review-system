@@ -18,7 +18,7 @@
 
 - State diagram
 
-  ![state diagram](./docs/State_Diagram.png)
+  ![state diagram](./docs/state-diagram.png)
 
 - Class diagram
 
@@ -47,9 +47,9 @@
 
 ```xml
 <dependency>
-			<groupId>org.mariadb.jdbc</groupId>
-			<artifactId>mariadb-java-client</artifactId>
-			<scope>runtime</scope>
+	<groupId>org.mariadb.jdbc</groupId>
+	<artifactId>mariadb-java-client</artifactId>
+	<scope>runtime</scope>
 </dependency>
 ```
 
