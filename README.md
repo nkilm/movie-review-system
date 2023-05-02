@@ -6,6 +6,12 @@
 
 - [Final Report](./docs/)
 
+## Design Diagrams
+
+- Activity diagram
+
+  ![activity diagram](./docs/activity-diagram.png)
+
 ## Contributors
 
 - Kushagra Singh - **PES1UG20CS657**
