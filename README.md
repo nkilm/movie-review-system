@@ -1,31 +1,22 @@
-It's a web based **Movie Review Application** where users will be able to write reviews on movies.
+# Movie Review System
 
-## Features
+> It's a web based **Movie Review Application** where users will be able to write reviews on movies.
 
-- #01 : Authentication + User & Admin Profile
+## Project Report
 
-  - Contributors :
-    - [suvro47](https://github.com/suvro47/)
+- [Final Report](./docs/)
 
-- #02 Movies (home page with movies grid and movie detail page)
+## Contributors
 
-  - Contributors :
-    - [Shifat](http://www.github.com/jspw)
-    - [Rashid](http://www.github.com/rashid54)
-
-- #03 Reviews on movie
-
-  - Contributors :
-    - [NavidMahbub](https://github.com/NavidMahbub)
-
-- #04 Comments on Review
-  - Contributors :
-    - Bashim
-    - Nahid
-
+- Kushagra Singh - **PES1UG20CS657**
+- Nikhil Raju Mohite - **PES1UG20CS667**
+- Pavan Kumar Nuthi - **PES1UG20CS670**
+- Pranav R - **PES1UG20CS673**
 
 ## Dependency
+
 – If you want to use PostgreSQL:
+
 ```xml
 <dependency>
   <groupId>org.postgresql</groupId>
@@ -33,7 +24,9 @@ It's a web based **Movie Review Application** where users will be able to write 
   <scope>runtime</scope>
 </dependency>
 ```
+
 - For Thymeleaf template engine
+
 ```xml
 <dependency>
 	<groupId>org.springframework.boot</groupId>
@@ -42,8 +35,11 @@ It's a web based **Movie Review Application** where users will be able to write 
 ```
 
 ## Configure Spring Datasource, JPA, App properties
+
 Open `src/main/resources/application.properties`
+
 - For PostgreSQL:
+
 ```
 spring.datasource.url= jdbc:postgresql://localhost:5432/dsi
 spring.datasource.username= postgres
@@ -53,16 +49,21 @@ spring.jpa.properties.hibernate.dialect= org.hibernate.dialect.PostgreSQLDialect
 ```
 
 # Hibernate ddl auto (create, create-drop, validate, update)
+
 ```
 spring.jpa.hibernate.ddl-auto= update
 ```
+
 ## Run Spring Boot application
+
 ```
 mvn spring-boot:run
 ```
+
 ## Follow the below steps
+
 ```
-1. First install postgresql 
+1. First install postgresql
 2. Postgesql  default usename is : postgres
 3. Postgresql database password should be : root
 4. Need to create a database named `dsi`
