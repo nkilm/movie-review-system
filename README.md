@@ -18,7 +18,7 @@
 
 - State diagram
 
-  ![state diagram](./docs/State_Diagram.png)
+  ![state diagram](./docs/state-diagram.png)
 
 - Class diagram
 
