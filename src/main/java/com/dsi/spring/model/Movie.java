@@ -55,8 +55,6 @@ public class Movie {
     @ManyToMany(mappedBy = "favouriteMovies")
     private Set<User> favouriteMovieUsers = new HashSet<>();
 
-
-
     public Movie() {
     }
 
