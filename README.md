@@ -7,17 +7,19 @@
 - [Final Report](./docs/)
 
 ## Design Diagrams
-- Use Case Diagram 
-
-  ![image](https://user-images.githubusercontent.com/73294651/235697127-7600b53a-0363-409e-bfb0-fac1c897c9dc.png)
+-Use Case Diagram 
+![image](https://user-images.githubusercontent.com/73294651/235697127-7600b53a-0363-409e-bfb0-fac1c897c9dc.png)
 
 - Activity diagram
 
   ![activity diagram](./docs/activity-diagram.png)
   
-- Class diagram
+- State diagram
+
+  ![state diagram](./docs/State_Diagram.png)
   
-  ![class diagram](./docs/class-diagram.png)
+ -Class diagram
+   ![class diagram](./docs/class-diagram.png)
  
 
 ## Contributors
