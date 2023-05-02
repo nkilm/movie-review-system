@@ -43,6 +43,16 @@
 </dependency>
 ```
 
+- If you want to use MySQL with MariaDB driver
+
+```xml
+<dependency>
+			<groupId>org.mariadb.jdbc</groupId>
+			<artifactId>mariadb-java-client</artifactId>
+			<scope>runtime</scope>
+</dependency>
+```
+
 - For Thymeleaf template engine
 
 ```xml
@@ -66,6 +76,16 @@ spring.datasource.password= root
 spring.jpa.properties.hibernate.dialect= org.hibernate.dialect.PostgreSQLDialect
 ```
 
+- For MySQL
+
+```
+spring.datasource.url= jdbc:mysql://localhost:3306/dsi
+spring.datasource.username= root
+spring.datasource.password=
+
+spring.datasource.driver-class-name=org.mariadb.jdbc.Driver
+```
+
 # Hibernate ddl auto (create, create-drop, validate, update)
 
 ```
@@ -78,13 +98,24 @@ spring.jpa.hibernate.ddl-auto= update
 mvn spring-boot:run
 ```
 
-## Follow the below steps
+## Follow the below steps for postgres
 
 ```
-1. First install postgresql
+1. First install postgresql via apache xampp
 2. Postgesql  default usename is : postgres
 3. Postgresql database password should be : root
-4. Need to create a database named `dsi`
+4. Create a database named `dsi`
+5. Run the code, that will create all tables in `dsi` database.
+6. Then signin as an admin using username `admin` and password `admin` similarly for `user`, `editor` and `creator`
+```
+
+## Follow the below steps for MySQL
+
+```
+1. First install xampp and start mysql server
+2. mysql  default usename is : root
+3. Postgresql database password should be :
+4. Create a database named `dsi`
 5. Run the code, that will create all tables in `dsi` database.
 6. Then signin as an admin using username `admin` and password `admin` similarly for `user`, `editor` and `creator`
 ```
